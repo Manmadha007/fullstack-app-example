@@ -15,6 +15,5 @@ spec:
       containers:
       - name: frontend
         image: manmadha4github/frontend
-        imagePullPolicy: Always  # <-- Add this line
         ports:
         - containerPort: 3000
